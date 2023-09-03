@@ -1,0 +1,198 @@
+
+body {
+    background-color: #fef2da;
+    padding: 20px 50px;
+    padding-bottom: 40px;
+    height: 100%;
+
+}
+
+.todo_bg {
+    background-image: url("https://img.freepik.com/free-photo/top-view-desk-concept-with-copy-space_23-2148236863.jpg?size=626&ext=jpg&ga=GA1.1.576068589.1681313773&semt=ais");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.todo-head {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.todo-icon {
+    color: black;
+    font-weight: bold;
+}
+
+.input_container {
+    margin-left: 100px;
+}
+
+.todo_heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.input_text {
+    height: 60px;
+    width: 600px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: #DDCFB5;
+    border: 1px #5F3D01 solid;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding-left: 30px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.input_text:focus {
+    background: #4D422E;
+    color: white;
+    border: 1px white solid;
+}
+
+.button-add {
+    background-color: #9a7d54;
+    padding: 3px 15px;
+    border: 0;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    transition: 0.3s;
+}
+
+.button-add:hover {
+    transform: scale(1.05);
+}
+
+.todo_container {
+    margin-left: 100px;
+}
+
+.label-container {
+    background-color: #9a7d54;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+}
+
+.checkbox-input {
+    width: 57px;
+    height: 54px;
+    border: 0.19rem solid black;
+    color:black;
+    background-color: #9a7d54;
+    border-radius: 45%;
+    font-size: 46px;
+    transition: 0.1s;
+}
+.checkbox-input2 {
+    width: 57px;
+    height: 54px;
+    border: 0.19rem solid black;
+    color:black;
+    background-color: rgb(37, 250, 154);
+    border-radius: 45%;
+    font-size: 30px;
+    transition: 0.1s;
+}
+.checkbox-input:hover {
+    background-color: rgb(37, 250, 154);
+    color: white;
+    font-weight: bold;
+    border: 0.1rem solid black;
+    transform: scale(1.15);
+    border-radius: 45%;
+}
+
+.tick-icon-todo-input {
+    font-weight: bold;
+    color: black;
+}
+
+.tick-icon-todo-input:hover {
+    color: white;
+}
+
+.checkbox-label {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    font-size: 30px;
+    padding: 15px 1px 0px 0px;
+    margin-left: 70px;
+    transition: 0.3s;
+}
+
+.delete-icon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.hello {
+    text-decoration: line-through;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-completed-container {
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.Todo_message_complated {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+
+}
